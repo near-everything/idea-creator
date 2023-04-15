@@ -11,6 +11,6 @@ interface CreateIdeaPayload {
 }
 
 const createIdea = (payload: CreateIdeaPayload) => {
-  return request<CreateIdeaResponse>("create-idea", payload);
+  return request<CreateIdeaResponse>("create-thing", payload);
 };
 export default createIdea;
